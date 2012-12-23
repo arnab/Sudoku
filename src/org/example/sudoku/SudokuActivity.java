@@ -54,6 +54,9 @@ public class SudokuActivity extends Activity implements OnClickListener {
 			Intent i = new Intent(this, AboutActivity.class);
 			startActivity(i);
 			break;
+		case R.id.exit_button:
+			finish();
+			break;
 		}
 	}
 }
